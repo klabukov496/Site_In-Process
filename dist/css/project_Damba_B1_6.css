@@ -1,0 +1,888 @@
+/* Вариант для Less*/
+/* Переменные */
+/* Мониторы: 1200px и более  */
+/* Маленкие мониторы: 992...1200px  */
+/* Планшеты: 769...992px */
+body > .wrapper {
+  max-width: 1200px;
+  margin: 10px auto;
+  height: inherit;
+  overflow: hidden;
+  position: relative;
+  background: #e8f5fd;
+  /* 	Секция 1. Введение */
+  /* 	Секция 2. История строительства */
+  /* 	Секция 3. Описание технологии. Узлы и сооружения */
+}
+body > .wrapper header .header_fix {
+  display: none;
+}
+body > .wrapper header .header_banner {
+  margin-top: 2px;
+  max-width: 1200px;
+  min-height: 290px;
+  background-image: url(../Img/project_Daba_B1_B6/Header_1200_290.jpg);
+}
+body > .wrapper header .header_banner img {
+  display: none;
+}
+body > .wrapper header .header_banner .button {
+  position: absolute;
+  top: 247px;
+  left: 802px;
+}
+body > .wrapper header .header_banner .button a {
+  padding: 8px 32px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: monospace;
+  color: #1f4a6d;
+  background-color: #bcccdc;
+  border-radius: 12px;
+  border: 1px solid #5b5d5f;
+  border-top: #5b5d5f;
+  border-bottom: 2px solid #50555a;
+}
+body > .wrapper header .header_banner .button a:hover {
+  background-color: #ccdef0;
+}
+body > .wrapper header .header_banner .Link_InProcess {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+body > .wrapper header .header_banner .Link_InProcess a {
+  display: block;
+  height: 180px;
+  width: 300px;
+  /* background-color:blue; */
+}
+body > .wrapper section.sect-1 {
+  margin-top: 20px;
+}
+body > .wrapper section.sect-1 .items {
+  box-sizing: border-box;
+  padding: 10px;
+  text-align: center;
+  float: left;
+  margin: 0%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+body > .wrapper section.sect-1 .items p,
+body > .wrapper section.sect-1 .items ul {
+  color: #111;
+  font-family: sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  text-align: left;
+  font-stretch: normal;
+  /* Уплотнение текста в строке */
+  font-kerning: auto;
+  letter-spacing: 0px;
+  /* расстояние между буквами в px */
+  line-height: 1.4;
+  /* межстрочный интервал */
+  margin-top: 10px;
+}
+body > .wrapper section.sect-1 .items ul {
+  margin-top: 10px;
+  margin-left: 20px;
+  text-align: left;
+  list-style-type: square;
+}
+body > .wrapper section.sect-1 .item-1 {
+  width: 33%;
+}
+body > .wrapper section.sect-1 .item-2 {
+  width: 33%;
+}
+body > .wrapper section.sect-1 .item-3 {
+  width: 33%;
+}
+body > .wrapper section.sect-1 .item-3 img {
+  width: 90%;
+}
+body > .wrapper section.sect-1 .item-3under {
+  width: 33%;
+}
+body > .wrapper section.sect-2 {
+  margin-top: 20px;
+}
+body > .wrapper section.sect-2 .items {
+  box-sizing: border-box;
+  padding: 10px;
+  text-align: center;
+  float: left;
+  margin: 0%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+body > .wrapper section.sect-2 .items p,
+body > .wrapper section.sect-2 .items ul {
+  color: #111;
+  font-family: sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  text-align: left;
+  font-stretch: normal;
+  /* Уплотнение текста в строке */
+  font-kerning: auto;
+  letter-spacing: 0px;
+  /* расстояние между буквами в px */
+  line-height: 1.4;
+  /* межстрочный интервал */
+  margin-top: 10px;
+}
+body > .wrapper section.sect-2 .items ul {
+  margin-top: 10px;
+  margin-left: 20px;
+  text-align: left;
+  list-style-type: square;
+}
+body > .wrapper section.sect-2 .item-4 {
+  width: 67%;
+  padding: 0px;
+}
+body > .wrapper section.sect-2 .item-4-1 {
+  width: 96%;
+}
+body > .wrapper section.sect-2 .item-4-1 img {
+  width: 90%;
+}
+body > .wrapper section.sect-2 .item-4-2 {
+  width: 50%;
+}
+body > .wrapper section.sect-2 .item-4-3 {
+  width: 50%;
+}
+body > .wrapper section.sect-2 .item-5 {
+  width: 33%;
+}
+body > .wrapper section.sect-3 {
+  margin-top: 20px;
+}
+body > .wrapper section.sect-3 .items {
+  box-sizing: border-box;
+  padding: 10px;
+  text-align: center;
+  float: left;
+  margin: 0%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+body > .wrapper section.sect-3 .items p,
+body > .wrapper section.sect-3 .items ul {
+  color: #111;
+  font-family: sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  text-align: left;
+  font-stretch: normal;
+  /* Уплотнение текста в строке */
+  font-kerning: auto;
+  letter-spacing: 0px;
+  /* расстояние между буквами в px */
+  line-height: 1.4;
+  /* межстрочный интервал */
+  margin-top: 10px;
+}
+body > .wrapper section.sect-3 .items ul {
+  margin-top: 10px;
+  margin-left: 20px;
+  text-align: left;
+  list-style-type: square;
+}
+body > .wrapper section.sect-3 .item-1 {
+  width: 67%;
+  padding: 0px;
+}
+body > .wrapper section.sect-3 .item-1-1 {
+  width: 50%;
+}
+body > .wrapper section.sect-3 .item-1-2 {
+  width: 50%;
+}
+body > .wrapper section.sect-3 .item-1-3 {
+  width: 100%;
+}
+body > .wrapper section.sect-3 .item-1-3 img {
+  width: 80%;
+}
+body > .wrapper section.sect-3 .item-2 {
+  width: 33%;
+  margin-top: 50px;
+}
+body > .wrapper section.sect-3 .item-2 img {
+  width: 45%;
+}
+body > .wrapper section.sect-3 .item-3 {
+  width: 33%;
+}
+body > .wrapper section.sect-3 .item-3 img {
+  width: 60%;
+}
+body > .wrapper section.sect-3 .item-4 {
+  width: 100%;
+}
+body > .wrapper section.sect-4 {
+  margin-top: 20px;
+}
+body > .wrapper section.sect-4 .items {
+  box-sizing: border-box;
+  padding: 10px;
+  text-align: center;
+  float: left;
+  margin: 0%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+body > .wrapper section.sect-4 .items p,
+body > .wrapper section.sect-4 .items ul {
+  color: #111;
+  font-family: sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  text-align: left;
+  font-stretch: normal;
+  /* Уплотнение текста в строке */
+  font-kerning: auto;
+  letter-spacing: 0px;
+  /* расстояние между буквами в px */
+  line-height: 1.4;
+  /* межстрочный интервал */
+  margin-top: 10px;
+}
+body > .wrapper section.sect-4 .items ul {
+  margin-top: 10px;
+  margin-left: 20px;
+  text-align: left;
+  list-style-type: square;
+}
+body > .wrapper section.sect-4 .item-1 {
+  width: 33%;
+  padding: 0px;
+}
+body > .wrapper section.sect-4 .item-1-1 {
+  width: 100%;
+}
+body > .wrapper section.sect-4 .item-1-1 img {
+  width: 60%;
+}
+body > .wrapper section.sect-4 .item-1-2 {
+  width: 100%;
+}
+body > .wrapper section.sect-4 .item-2 {
+  width: 33%;
+  padding: 0px;
+}
+body > .wrapper section.sect-4 .item-2-1 {
+  width: 100%;
+}
+body > .wrapper section.sect-4 .item-2-2 {
+  width: 100%;
+}
+body > .wrapper section.sect-4 .item-3 {
+  width: 33%;
+}
+body > .wrapper section.sect-4 .item-4 {
+  width: 33%;
+}
+body > .wrapper section.sect-4 .item-4 img {
+  width: 60%;
+}
+body > .wrapper section.sect-4 .item-5 {
+  width: 66%;
+}
+body > .wrapper section.sect-4 .item-5 img {
+  width: 30%;
+}
+body > .wrapper section.sect-5 {
+  margin-top: 20px;
+}
+body > .wrapper section.sect-5 .items {
+  box-sizing: border-box;
+  padding: 10px;
+  text-align: center;
+  float: left;
+  margin: 0%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+body > .wrapper section.sect-5 .items p,
+body > .wrapper section.sect-5 .items ul {
+  color: #111;
+  font-family: sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  text-align: left;
+  font-stretch: normal;
+  /* Уплотнение текста в строке */
+  font-kerning: auto;
+  letter-spacing: 0px;
+  /* расстояние между буквами в px */
+  line-height: 1.4;
+  /* межстрочный интервал */
+  margin-top: 10px;
+}
+body > .wrapper section.sect-5 .items ul {
+  margin-top: 10px;
+  margin-left: 20px;
+  text-align: left;
+  list-style-type: square;
+}
+body > .wrapper section.sect-5 .item-1 {
+  width: 66%;
+  padding: 0px;
+}
+body > .wrapper section.sect-5 .item-1-1 {
+  width: 100%;
+}
+body > .wrapper section.sect-5 .item-1-1 img {
+  width: 80%;
+}
+body > .wrapper section.sect-5 .item-1-2 {
+  width: 50%;
+}
+body > .wrapper section.sect-5 .item-1-2 img {
+  width: 60%;
+  margin-top: 100px;
+}
+body > .wrapper section.sect-5 .item-1-3 {
+  width: 48%;
+}
+body > .wrapper section.sect-5 .item-2 {
+  width: 33%;
+}
+body > .wrapper section.sect-5 .item-3 {
+  width: 33%;
+}
+body > .wrapper section.sect-5 .item-3 img {
+  width: 60%;
+}
+body > .wrapper section.sect-6 {
+  margin-top: 20px;
+}
+body > .wrapper section.sect-6 .items {
+  box-sizing: border-box;
+  padding: 10px;
+  text-align: center;
+  float: left;
+  margin: 0%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+body > .wrapper section.sect-6 .items p,
+body > .wrapper section.sect-6 .items ul {
+  color: #111;
+  font-family: sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  text-align: left;
+  font-stretch: normal;
+  /* Уплотнение текста в строке */
+  font-kerning: auto;
+  letter-spacing: 0px;
+  /* расстояние между буквами в px */
+  line-height: 1.4;
+  /* межстрочный интервал */
+  margin-top: 10px;
+}
+body > .wrapper section.sect-6 .items ul {
+  margin-top: 10px;
+  margin-left: 20px;
+  text-align: left;
+  list-style-type: square;
+}
+body > .wrapper section.sect-6 .item-1 {
+  width: 99%;
+}
+body > .wrapper section.sect-6 .item-1 img {
+  width: 70%;
+}
+body > .wrapper section.sect-6 .item-2 {
+  width: 33%;
+}
+body > .wrapper section.sect-6 .item-3 {
+  width: 33%;
+}
+body > .wrapper section.sect-6 .item-4 {
+  width: 33%;
+}
+body > .wrapper footer .wrapper {
+  min-height: 180px;
+  background-image: url(../Img/project_Daba_B1_B6/Footer-1.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100% auto;
+  margin-top: 20px;
+}
+body > .wrapper footer p {
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+/* Миксины */
+/* Заголовки секций */
+.Sect_Header {
+  font-family: sans-serif;
+  font-size: 34px;
+  font-weight: 500;
+  font-stretch: ultra-expanded;
+  text-align: center;
+  margin-bottom: 10px;
+}
+/* Общие параметры блоков секции */
+.descr_img {
+  color: #111;
+  font-family: sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  text-align: center;
+  font-style: italic;
+  line-height: 1.2;
+  display: inline-block;
+  max-width: 85%;
+  margin-top: 10px;
+}
+/* Медиа запросы */
+/* Мониторы и маленькие мониторы: 1200px и менее  */
+@media screen and (max-width: 1200px) {
+  body > .wrapper {
+    max-width: 992px;
+  }
+  body > .wrapper header .header_banner {
+    background-image: url(../Img/project_Daba_B1_B6/Header_992_290.jpg);
+  }
+  body > .wrapper header .header_banner .button {
+    top: 245px;
+    left: 742px;
+  }
+  body > .wrapper header .header_banner .button a {
+    font-size: 12px;
+    padding: 10px 16px;
+  }
+  body > .wrapper section.sect-5 .item-1-2 img {
+    margin-top: 200px;
+  }
+}
+/* Планшеты: меньше 992px  */
+@media screen and (max-width: 992px) {
+  body > .wrapper {
+    max-width: 768px;
+    margin-top: 0px;
+  }
+  body > .wrapper header .header_banner {
+    background-image: url(../Img/project_Daba_B1_B6/Header_768_430.jpg);
+    min-height: 430px;
+  }
+  body > .wrapper header .header_banner .button {
+    top: 388px;
+    left: 368px;
+  }
+  body > .wrapper header .header_banner .button a {
+    font-size: 18px;
+    padding: 8px 32px;
+  }
+  body > .wrapper header .header_banner .Link_InProcess {
+    top: 140px;
+    left: 0px;
+  }
+  body > .wrapper header .header_banner .Link_InProcess a {
+    height: 180px;
+    width: 300px;
+  }
+  body > .wrapper section.sect-1 .item-1 {
+    width: 100%;
+  }
+  body > .wrapper section.sect-1 .item-2 {
+    width: 50%;
+  }
+  body > .wrapper section.sect-1 .item-3 {
+    width: 50%;
+    margin-top: 20px;
+  }
+  body > .wrapper section.sect-1 .item-3under {
+    width: 50%;
+  }
+  body > .wrapper section.sect-2 .item-4 {
+    width: 100%;
+    padding: 0px;
+  }
+  body > .wrapper section.sect-2 .item-4-1,
+  body > .wrapper section.sect-2 .item-4-2,
+  body > .wrapper section.sect-2 .item-4-3 {
+    width: 100%;
+  }
+  body > .wrapper section.sect-2 .item-5 {
+    width: 100%;
+  }
+  body > .wrapper section.sect-3 .item-1 {
+    width: 100%;
+    padding: 0px;
+  }
+  body > .wrapper section.sect-3 .item-1-1 {
+    width: 50%;
+  }
+  body > .wrapper section.sect-3 .item-1-2 {
+    width: 50%;
+  }
+  body > .wrapper section.sect-3 .item-1-3 {
+    width: 100%;
+  }
+  body > .wrapper section.sect-3 .item-2 {
+    width: 50%;
+    margin-top: 0px;
+  }
+  body > .wrapper section.sect-3 .item-3 {
+    width: 50%;
+  }
+  body > .wrapper section.sect-3 .item-3 img {
+    margin-top: 65px;
+  }
+  body > .wrapper section.sect-4 .item-1 {
+    padding: 0px;
+    width: 100%;
+  }
+  body > .wrapper section.sect-4 .item-1-1 {
+    width: 33%;
+  }
+  body > .wrapper section.sect-4 .item-1-2 {
+    width: 66%;
+    margin-top: 20px;
+  }
+  body > .wrapper section.sect-4 .item-2 {
+    padding: 0px;
+    width: 100%;
+  }
+  body > .wrapper section.sect-4 .item-2-1 {
+    width: 100%;
+  }
+  body > .wrapper section.sect-4 .item-2-2 {
+    width: 100%;
+  }
+  body > .wrapper section.sect-4 .item-3 {
+    width: 66%;
+  }
+  body > .wrapper section.sect-4 .item-4 {
+    width: 33%;
+  }
+  body > .wrapper section.sect-4 .item-5 {
+    width: 100%;
+  }
+  body > .wrapper section.sect-5 .item-1 {
+    padding: 0px;
+    width: 100%;
+  }
+  body > .wrapper section.sect-5 .item-1-1 {
+    width: 100%;
+  }
+  body > .wrapper section.sect-5 .item-1-2 {
+    width: 33%;
+  }
+  body > .wrapper section.sect-5 .item-1-2 img {
+    width: 100%;
+    margin-top: 150px;
+  }
+  body > .wrapper section.sect-5 .item-1-3 {
+    width: 66%;
+    margin-top: 20px;
+  }
+  body > .wrapper section.sect-5 .item-2 {
+    width: 66%;
+  }
+  body > .wrapper section.sect-5 .item-3 {
+    width: 33%;
+    margin-top: 180px;
+  }
+  body > .wrapper section.sect-5 .item-3 img {
+    width: 100%;
+  }
+  body > .wrapper section.sect-6 .item-1,
+  body > .wrapper section.sect-6 .item-2,
+  body > .wrapper section.sect-6 .item-3,
+  body > .wrapper section.sect-6 .item-4 {
+    width: 100%;
+  }
+}
+/* Телефоны: меньше 769px */
+@media screen and (max-width: 768px) {
+  body > .wrapper header .header_fix {
+    display: block;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    background-color: #add8f2;
+    width: 100%;
+  }
+  body > .wrapper header .header_fix .header_body {
+    /* Выводим телефон и почту */
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+    /* 								.mail span {
+	margin-left: 10px;
+	vertical-align: middle;
+	font-family: sans-serif;
+	font-size: 24px;
+	font-weight: 600;
+} */
+    /* Выводим кнопку "бургер" */
+    /* При нажатии на кнопку меняем ее вид ("бургер" на "крест") */
+    /* Настраиваем меню */
+  }
+  body > .wrapper header .header_fix .header_body .phone img {
+    width: 20px;
+    display: inline-block;
+    margin-top: 0;
+    vertical-align: middle;
+    margin-left: 4px;
+  }
+  body > .wrapper header .header_fix .header_body .phone span {
+    margin-left: 10px;
+    vertical-align: middle;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  body > .wrapper header .header_fix .header_body .home img {
+    width: 60px;
+    display: inline-block;
+    margin-top: 0;
+    vertical-align: middle;
+  }
+  body > .wrapper header .header_fix .header_body .burger {
+    display: block;
+    position: relative;
+    width: 30px;
+    height: 20px;
+    z-index: 100;
+    margin-right: 20px;
+  }
+  body > .wrapper header .header_fix .header_body .burger span {
+    position: absolute;
+    background-color: #000;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    top: 9px;
+  }
+  body > .wrapper header .header_fix .header_body .burger:before,
+  body > .wrapper header .header_fix .header_body .burger:after {
+    content: "";
+    background-color: #000;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    left: 0;
+    transition: all 0.3s ease 0s;
+  }
+  body > .wrapper header .header_fix .header_body .burger:before {
+    top: 0;
+  }
+  body > .wrapper header .header_fix .header_body .burger:after {
+    bottom: 0;
+  }
+  body > .wrapper header .header_fix .header_body .burger.active:before {
+    transform: rotate(45deg);
+    top: 9px;
+  }
+  body > .wrapper header .header_fix .header_body .burger.active:after {
+    transform: rotate(-45deg);
+    bottom: 9px;
+  }
+  body > .wrapper header .header_fix .header_body .burger.active span {
+    transform: scale(0);
+    transition: all 0.3s ease 0s;
+  }
+  body > .wrapper header .header_fix .header_body .header_menu {
+    position: fixed;
+    /* top: 80px; */
+    top: -100%;
+    left: 0;
+    width: 100%;
+    height: 65%;
+    overflow: auto;
+    transition: all 0.3s ease 0s;
+    background-color: #ccdfea;
+    padding: 40px 20px 0px 20px;
+  }
+  body > .wrapper header .header_fix .header_body .header_menu .header_list {
+    display: block;
+    padding-right: 40px;
+  }
+  body > .wrapper header .header_fix .header_body .header_menu .header_list li {
+    margin-bottom: 15px;
+  }
+  body > .wrapper header .header_fix .header_body .header_menu .header_link {
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #000;
+  }
+  body > .wrapper header .header_fix .header_body .header_menu.active {
+    top: 60px;
+  }
+  body > .wrapper header .header_banner {
+    margin-top: 62px;
+    background-image: none;
+    min-height: 0;
+  }
+  body > .wrapper header .header_banner img {
+    display: block;
+    width: 100%;
+  }
+  body > .wrapper header .header_banner .button {
+    display: none;
+  }
+  body > .wrapper img {
+    margin-top: 20px;
+  }
+  body > .wrapper section.sect-1 .items {
+    display: block;
+    float: none;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  body > .wrapper section.sect-1 .items p,
+  body > .wrapper section.sect-1 .items ul {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  body > .wrapper section.sect-2 .items {
+    display: block;
+    float: none;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  body > .wrapper section.sect-2 .items p,
+  body > .wrapper section.sect-2 .items ul {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  body > .wrapper section.sect-2 .item-4 {
+    padding: 0px;
+  }
+  body > .wrapper section.sect-3 .items {
+    display: block;
+    float: none;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  body > .wrapper section.sect-3 .items p,
+  body > .wrapper section.sect-3 .items ul {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  body > .wrapper section.sect-3 .item-1 {
+    padding: 0px;
+  }
+  body > .wrapper section.sect-3 .item-3 img {
+    margin-top: 20px;
+  }
+  body > .wrapper section.sect-4 .items {
+    display: block;
+    float: none;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  body > .wrapper section.sect-4 .items p,
+  body > .wrapper section.sect-4 .items ul {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  body > .wrapper section.sect-4 .item-1,
+  body > .wrapper section.sect-4 .item-2 {
+    padding: 0px;
+  }
+  body > .wrapper section.sect-4 .item-1-2 {
+    margin-top: 0px;
+  }
+  body > .wrapper section.sect-5 .items {
+    display: block;
+    float: none;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  body > .wrapper section.sect-5 .items p,
+  body > .wrapper section.sect-5 .items ul {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  body > .wrapper section.sect-5 .item-1 {
+    padding: 0px;
+  }
+  body > .wrapper section.sect-5 .item-1-1 img,
+  body > .wrapper section.sect-5 .item-1-2 img,
+  body > .wrapper section.sect-5 .item-3 img {
+    width: 85%;
+  }
+  body > .wrapper section.sect-5 .item-1-2 img {
+    margin-top: 20px;
+  }
+  body > .wrapper section.sect-5 .item-3 {
+    margin-top: 20px;
+  }
+  body > .wrapper section.sect-5 .item-1-3 {
+    margin-top: 0px;
+  }
+  body > .wrapper section.sect-6 .items {
+    display: block;
+    float: none;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  body > .wrapper section.sect-6 .items p,
+  body > .wrapper section.sect-6 .items ul {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  body > .wrapper section.sect-6 .item-1 img {
+    width: 100%;
+  }
+  body > .wrapper footer .wrapper {
+    min-height: 140px;
+  }
+  body > .wrapper footer p {
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 0px;
+    padding: 0px;
+  }
+  /* Миксины медиа запроса */
+  .Sect_Header {
+    font-size: 24px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 0px;
+  }
+  .descr_img {
+    font-size: 15px;
+    max-width: 100%;
+  }
+}
+/* Телефоны: меньше 632px */
+@media screen and (max-width: 632px) {
+  body > .wrapper > header > .header_fix > .header_body > .phone span {
+    font-size: 18px;
+  }
+  /* body > .wrapper > header > .header_fix > .header_body > .mail span { font-size: 15px; } */
+}
+/* Телефоны: меньше 432px */
+@media screen and (max-width: 432px) {
+  /* body > .wrapper > header > .header_fix > .header_body .mail { display: none; } */
+  body > .wrapper > header > .header_fix > .header_body > .phone span {
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,262 @@
+body {
+  background-color: #a298aa;
+  margin: 0px;
+}
+h1 {
+  color: #412855;
+  font-size: 26px;
+  font-weight: bold;
+  text-align: center;
+  margin: 20px;
+}
+h2.cl_h2 {
+  color: #412855;
+  font-size: 24px;
+  font-weight: normal;
+  text-align: left;
+  text-decoration: underline;
+  font-family: Arial;
+  margin-top: 10px;
+}
+p {
+  color: #FFF;
+  margin: 20px;
+  /* font-family: "Sans-serif"; */
+  font-size: 17px;
+}
+p.cl_paragraph1 {
+  color: #222;
+  /* font-family: "Sans-serif"; */
+  font-size: 17px;
+}
+ul.cl_ul1 {
+  color: #222;
+  list-style: square;
+  margin-left: 40px;
+  padding-bottom: 10px;
+  /* font-family: "Sans-serif"; */
+  font-size: 17px;
+}
+div a {
+  margin-left: 10px;
+  color: blue;
+}
+/* Форматируем контакты в шапке  */
+.ContactHead {
+  position: absolute;
+  top: 95px;
+  right: 25%;
+  width: 80px;
+  height: 80px;
+  /* background-color: green; */
+  /* 	font-size:40px;
+position:absolute;
+right:25%;
+top:115px;
+background: red; */
+}
+/* Форматируем левый SideBar (оглавление страницы) */
+div.cl_sb {
+  color: #CCC;
+  /* background: @bg_SideBar_color; */
+  position: fixed;
+  top: 280px;
+  left: 40px;
+  width: 154px;
+  height: auto;
+  padding: 0px;
+}
+a.list-group-item {
+  margin: 0px;
+}
+div.cl_Col1 {
+  position: absolute;
+  top: 300px;
+  left: 200px;
+  right: 200px;
+  height: auto;
+  padding: 10px;
+}
+/* Форматируем правый SideBar */
+div.cl_sbr {
+  margin-top: 0px;
+}
+@media (max-width: 992px) {
+  div.cl_sbr {
+    margin-top: 20px;
+  }
+}
+div.cl_Col2 {
+  color: #CCC;
+  background: grey;
+}
+table,
+tr,
+td,
+th {
+  border: 1px solid #AAA;
+  text-align: center;
+  width: 100%;
+}
+th {
+  width: 50%;
+  height: 35px;
+  font-size: 12px;
+}
+td {
+  font-size: 12px;
+}
+table {
+  margin-top: 20px;
+}
+div.panel-heading {
+  text-align: center;
+}
+img.ImgSB_Right {
+  display: block;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+img.ImgSB_Right-1 {
+  display: block;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Форматируем подвал сайта */
+div.cl_footer {
+  background-color: #DDDDDD;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 4px 4px 4px 4px;
+}
+p.cl_footerTxt {
+  color: black;
+  font-size: 12px;
+}
+img.cl_img1 {
+  display: block;
+  width: 80%;
+  margin: 30px 10% 30px 10%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #412855;
+}
+img.cl_img2 {
+  float: right;
+  width: 45%;
+  margin: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #412855;
+}
+img.cl_img3 {
+  float: left;
+  width: 45%;
+  margin-right: 15px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #412855;
+}
+img.cl_img4 {
+  float: right;
+  width: 20%;
+  margin: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #412855;
+}
+img.cl_img5 {
+  float: right;
+  width: 45%;
+  margin: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #412855;
+}
+img.cl_img6 {
+  display: block;
+  width: 85%;
+  margin: 30px 8% 30px 8%;
+}
+img.cl_img9 {
+  float: right;
+  width: 25%;
+  margin: 15px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #412855;
+}
+img.cl_img10 {
+  float: left;
+  width: 30%;
+  margin: 25px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #412855;
+}
+img.cl_Algo {
+  width: 80%;
+  margin: 20px 10% 20px 10%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #412855;
+}
+img.cl_imgMenuWin {
+  width: 80%;
+  margin: 20px 10% 20px 10%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #412855;
+}
+img.cl_imgWin {
+  width: 96%;
+  margin: 20px 2% 20px 2%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #412855;
+}
+/* Параметры навигационной панели */
+nav.navbar {
+  background-color: #DDD;
+}
+div.navbar-header {
+  background-color: #DDD;
+}
+/* Форматирование для устройств xs,sm (телефоны, планшеты)*/
+@media (max-width: 992px) {
+  div.cl_sb {
+    display: block;
+    color: #CCC;
+    position: static;
+    width: auto;
+    height: auto;
+    margin: 0px;
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+  img.smLogo {
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+    height: auto;
+  }
+  img.ImgSB_Right {
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+  }
+  img.ImgSB_Right-1 {
+    display: block;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

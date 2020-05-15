@@ -1,0 +1,333 @@
+// Определяем общие цвета
+@bg_pg_color: #a298aa;		// цвет для фона страницы
+@h1_color: #412855;			// цвет для заголовков первого уровня
+@h2_color: #412855;			// цвет для заголовков второго уровня
+
+@p_color1: #FFF;				// цвет для параграфов. Вариант 1
+@p_color2: #222;				// цвет для параграфов. Вариант 2
+
+
+@bg_SideBar_color: grey;	// цвет фона для боковых панелей
+@SideBar_color: #CCC;		// цвет текста для боковых панелей
+
+
+@HLink_color: blue;					// цвет для ссылок
+@bg_nav_bar_color: #DDD;			// цвет фона панели навигации
+@bg_nav_bar_logo_color: #DDD;		// цвет фона панели навигации. Логотипа
+
+
+// ====== Общие настройки параметров сайта In-Process ======
+
+body {
+	background-color: @bg_pg_color; 		// Фоновое оформление для сайта
+	margin: 0px; }
+
+h1 {
+	color: @h1_color; 						// Заголовки первого уровня
+	font-size: 26px;
+
+	font-weight: bold;
+	text-align: center;
+
+	margin: 20px; }
+
+h2.cl_h2 {
+	color: @h2_color; 						// Заголовки второго уровня
+	font-size: 24px;
+	
+	font-weight: normal;
+	text-align: left;
+
+	text-decoration: underline;
+	font-family: Arial;
+
+	margin-top: 10px;
+}
+
+.com_p_set() {
+	/* font-family: "Sans-serif"; */		// Общие настройка параграфов
+	font-size: 17px;
+}
+
+p {
+	color: @p_color1;						// Параграф по умолчанию. Белый 
+	margin: 20px;
+	.com_p_set;
+}
+
+p.cl_paragraph1 {
+	color: @p_color2;						// Параграф. Тип 1. Темно-серый.
+	.com_p_set;								
+}
+
+ul.cl_ul1 {
+	color: @p_color2;						// Список. Темно-серый.
+	list-style: square;
+	margin-left: 40px;
+	padding-bottom: 10px;  
+	.com_p_set;	
+}
+
+div a {
+	margin-left: 10px;						// Ссылка по умолчанию. Синий
+	color: @HLink_color;
+}
+
+
+// ====== Общие настройки панелей для сайта In-Process ======
+
+/* Форматируем контакты в шапке  */
+.ContactHead {
+
+position:absolute;
+top:95px;
+right:25%;
+width: 80px;
+height:80px;
+/* background-color: green; */
+
+
+
+/* 	font-size:40px;
+position:absolute;
+right:25%;
+top:115px;
+background: red; */
+}
+
+
+
+
+/* Форматируем левый SideBar (оглавление страницы) */
+div.cl_sb {
+color: @SideBar_color;						// Левая боковая панель. Меню
+/* background: @bg_SideBar_color; */
+
+position: fixed;
+top:280px;
+left: 40px;
+width: 154px;
+height: auto;
+padding: 0px;
+}
+
+a.list-group-item {
+margin:0px;	
+}
+
+div.cl_Col1 {								// Основной блок. Контент						
+
+position: absolute;
+top:300px;
+left: 200px;
+right: 200px;
+height: auto;
+padding: 10px;
+}
+
+/* Форматируем правый SideBar */
+
+div.cl_sbr {
+	margin-top:0px;						// Правая боковая панель. Контейнер панели
+}
+	@media (max-width: 992px) {
+	div.cl_sbr {
+		margin-top:20px;				// Правая боковая панель. Отступ от тела основного контента
+	}	
+}
+
+
+
+div.cl_Col2 {
+color: @SideBar_color;						// Правая боковая панель. Меню
+background: @bg_SideBar_color;
+}
+
+table, tr, td, th {							// В таблице правого SB отображается "легенда"" проекта
+	border: 1px solid #AAA;	
+	text-align: center;
+	width: 100%;
+}
+
+th {
+	width: 50%;
+	height:35px;
+	font-size:12px;
+}
+td {
+	font-size:12px;
+}
+
+
+table {
+	margin-top: 20px;
+}
+
+div.panel-heading {
+	text-align: center;
+}
+
+img.ImgSB_Right {
+display:block;
+width:80%;
+margin-left:auto;
+margin-right:auto;
+margin-top:10px;
+}
+
+img.ImgSB_Right-1 {
+display:block;
+width:50%;
+margin-left:auto;
+margin-right:auto;
+}
+
+/* Форматируем подвал сайта */
+div.cl_footer {
+	background-color: #DDDDDD;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	height:40px;
+	line-height: 40px;
+	text-align: center;
+	border-radius: 4px 4px 4px 4px;
+}
+p.cl_footerTxt{
+	color:black;
+	font-size:12px;
+
+
+}
+
+
+
+// Оформление картинок для страницы "Дамба"
+
+.pg_dmb_img()		// Миксин. Общее оформление картинок
+{
+	border-style: solid;
+	border-width: 1px;
+	border-color: @h1_color;
+}
+
+img.cl_img1 {
+	
+	display: block;
+	width: 80%;
+	margin: 30px 10% 30px 10%;
+	.pg_dmb_img
+}
+
+img.cl_img2 {
+
+	float: right;
+	width: 45%;
+	margin: 20px; 
+	.pg_dmb_img
+}
+
+img.cl_img3 {
+	float: left;
+	width: 45%;	
+	margin-right: 15px; 
+	.pg_dmb_img
+}
+
+img.cl_img4 {
+	float: right;
+	width: 20%;	
+	margin: 20px; 
+	.pg_dmb_img
+}
+
+img.cl_img5 {
+	float: right;
+	width: 45%;	
+	margin: 20px; 
+	.pg_dmb_img
+}
+
+img.cl_img6 {
+	display: block;
+	width: 85%;	
+	margin: 30px 8% 30px 8%;
+}
+
+img.cl_img9 {
+	float: right;	
+	width: 25%;
+	margin: 15px; 
+	.pg_dmb_img
+}
+
+img.cl_img10 {
+	float: left;	
+	width: 30%;	
+	margin: 25px; 
+	.pg_dmb_img
+}
+
+img.cl_Algo {
+	width: 80%;
+	margin:20px 10% 20px 10%; 
+	.pg_dmb_img
+}
+
+img.cl_imgMenuWin {
+	width: 80%;	
+	margin:20px 10% 20px 10%;		 
+	.pg_dmb_img
+}
+
+img.cl_imgWin {
+	width: 96%;	
+	margin:20px 2% 20px 2%;					// Отступы: верх, право, низ, лево 
+	.pg_dmb_img
+}
+
+/* Параметры навигационной панели */
+nav.navbar {
+background-color: @bg_nav_bar_color;
+}
+div.navbar-header {
+background-color: @bg_nav_bar_logo_color;	
+}
+
+/* Форматирование для устройств xs,sm (телефоны, планшеты)*/
+@media (max-width: 992px) {
+	div.cl_sb {						// Левая боковая панель. Меню
+		display:block;
+
+		color: @SideBar_color;
+		position: static;
+
+		width: auto;
+		height: auto;
+
+		margin: 0px;
+		padding-left: 20%;
+		padding-right: 20%;		
+	}	
+
+	img.smLogo {					// форматирование картинки в шапке для малых экранов
+		margin-left: 0px;
+		margin-right: 0px;	
+		width:100%;
+		height:auto;
+	}
+
+	img.ImgSB_Right {
+		display:block;
+		width:50%;
+		margin-left:auto;
+		margin-right:auto;
+		margin-top:10px;
+		}
+
+		img.ImgSB_Right-1 {
+		display:block;
+		width:20%;
+		margin-left:auto;
+		margin-right:auto;
+		}
+}

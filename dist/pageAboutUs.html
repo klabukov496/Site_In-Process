@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Заголовок с настройками страницы -->
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Контакты</title>
+
+	<link rel="stylesheet" href="Css/bootstrap.min.css">
+	<link rel="stylesheet" href="Css/main.css">
+
+	<style>
+
+		h1{							/* заголовок страницы */
+			font-size: 26px;
+			font-style: normal;
+			color: #412855;
+			font-weight: 700;
+			text-align: center;
+			margin: 0px;
+			margin-top: 80px;
+			margin-bottom: 20px;
+		}
+
+		h2{							/* Заголовок банера раздела */
+
+			font-size: 24px;
+			font-style: normal;
+			color: #333;
+			font-weight: 700;
+			text-align: center;
+			margin: 0px;
+			margin-top: 20px;
+		}
+
+		div.cl_part1{				/* Оформление дизайна Баннера раздела [1] */
+			padding-left: 50px;
+			padding-right: 50px;
+			background-color: #DDD;
+			margin-left: 0px;
+			margin-right: 0px;
+			margin-top: 40px;
+			margin-bottom: 0px;
+
+			padding: 20px;
+			border-radius: 8px 8px 8px 8px;
+		}
+
+		div.cl_part1_1L{			/* Баннер раздела [1]. Первая строка. Левая часть */
+			padding-top: 20px;
+			padding-left: 4%;
+			padding-right: 4%;
+			margin: 0px;
+		}
+
+		div.cl_part1_1R{			/* Баннер раздела [1]. Первая строка. Правая часть */
+			padding-top: 20px;
+			padding-left: 2%;
+			padding-right: 2%;
+			margin: 0px;
+		}
+
+		.cl_part1HeadImg {			/* Рисунок - заголовок внутри банера раздела */
+			width: 80%;
+
+			margin: 0px;
+			padding: 0px;
+
+		}
+
+		p.cl_partContTxt{			/* Основной текст контента внутри раздела */
+			font-size: 15px;
+			color: #222;
+			font-weight: 400;
+
+		}
+
+
+
+
+
+		div.fb{
+
+			padding-top: 30px;
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			align-content: center;
+			align-items: center;
+			justify-content: center;
+
+		}
+
+		.it1{
+			margin: 6px;
+			width: 180px;
+		}
+		.it2{
+			margin: 6px;
+			width: 140px;
+		}
+		.it3{
+			margin: 6px;
+			width: 200px;
+		}
+		.it4{
+			margin: 6px;
+			width: 200px;
+		}
+		.it5{
+			margin: 6px;
+			width: 300px;
+		}
+		.it6{
+			margin: 6px;
+			width: 180px;
+		}
+		.it7{
+			margin: 6px;
+			width: 150px;
+		}
+		.it8{
+			margin: 6px;
+			width: 150px;
+		}
+		.it9{
+			margin: 6px;
+			width: 150px;
+		}
+		.it10{
+			margin: 6px;
+			width: 100px;
+		}
+		.it11{
+			margin: 6px;
+			width: 160px;
+		}
+		.it12{
+			margin: 6px;
+			width: 200px;
+		}
+		.it13{
+			margin: 6px;
+			width: 150px;
+		}
+		.it14{
+			margin: 6px;
+			width: 120px;
+		}
+		.it15{
+			margin: 6px;
+			width: 160px;
+		}
+		.it16{
+			margin: 6px;
+			width: 180px;
+		}
+		.it17{
+			margin: 6px;
+			width: 180px;
+		}
+		.it18{
+			margin: 6px;
+			width: 160px;
+		}
+
+		.cl_img1.{
+			width: 50%;
+			border-style: none;
+			color: white;
+		}
+
+	</style>
+
+	<!-- load jQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.js"></script>
+	<script src="Js/bootstrap.min.js"></script>
+
+</head>
+
+<!-- Тело страницы -->
+<body>
+
+	<!-- 	Общий контейнер страницы -->
+	<div class="container">
+
+		<!-- Шапка + навигационное меню + заголовок -->
+		<div class="row">
+			<div class="col-md-12">
+
+				<!-- Вывод картинки в шапке -->
+				<img class="img-responsive hidden-xs" src="Img/Header.jpg" alt="">
+				<img class="visible-xs smLogo" src="Img/Header_XS.jpg" alt="">
+
+				<!-- Навигационная панель + Заголовок -->
+				<div>
+					<!-- Навигационная панель -->
+					<nav class="navbar navbar-default" role="navigation">
+						<div class="container-fluid">
+							<!-- Группировка логотипа и меню ("гамбургер") для отображения на мобильных устройствах -->
+							<div class="navbar-header">
+								<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+									<span class="sr-only">Toggle navigation</span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+								</button>
+								<a class="navbar-brand" href="index.html"><b >In-Process</b></a>
+							</div>
+
+							<!-- Навигационные ссылки, формы и другой контент главного меню -->
+							<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+								<!-- Левая часть меню -->
+								<ul class="nav navbar-nav">
+									<li><a href="GroupInProcess.html" >Группа</a></li>
+									<li><a href="pageOffer.html">Работы</a></li>
+									<li><a href="project_Summary.html">Наши проекты</a></li>
+								</ul>
+								<!-- Правая часть меню -->
+								<ul class="nav navbar-nav navbar-right">
+									<li><a href="pageCertificate.html">Сертификаты</a></li>
+									<li><a href="pageAboutUs.html">Контакты</a></li>
+								</ul>
+							</div><!-- /.navbar-collapse -->
+						</div><!-- /.container-fluid -->
+					</nav>
+					<!-- <h1>Контакты</h1> -->
+				</div>
+			</div>
+		</div>
+
+<!-- Основной контент -->
+
+		<div class="row cl_part1">
+			<h2>Контакты для связи с нами</h2>
+
+			<div class="col-md-7 cl_part1_1L">
+				<img src="Img/pageAboutUs/Contact.png" alt="" class="cl_part1HeadImg">
+			</div>
+
+			<div class="col-md-5 cl_part1_1R">
+				<p class="cl_partContTxt">
+					Заявку и исходные данные для обсуждения стоимости работ вы можете прислать по адресу: klabukov496@gmail.com
+				</p>
+				<p class="cl_partContTxt">
+					Телефон для связи: +7 (916) 541-36-70
+				</p>
+				<p  >
+					Скайп: klabukov.m
+				</p>
+			</div>
+
+		</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="row ">
+		<h1>Наши заказчики</h1>
+		<div class="col-md-12 fb">
+
+			<img class="it1" src="Img/Logo_Customer/Logo_Alrosa.png" alt="">
+			<img class="it2" src="Img/Logo_Customer/Logo_ANPZ.png" alt="">
+			<img class="it3" src="Img/Logo_Customer/Logo_Avisma.png" alt="">
+			<img class="it4" src="Img/Logo_Customer/Logo_Belkamneft.png" alt="">
+			<img class="it5" src="Img/Logo_Customer/Logo_Fanera.png" alt="">
+			<img class="it6" src="Img/Logo_Customer/Logo_Inkar.png" alt="">
+			<img class="it7" src="Img/Logo_Customer/Logo_JBK-1.png" alt="">
+			<img class="it8" src="Img/Logo_Customer/Logo_JNPZ.png" alt="">
+			<img class="it9" src="Img/Logo_Customer/Logo_Kirov-1.png" alt="">
+			<img class="it10" src="Img/Logo_Customer/Logo_Labyitnangi.png" alt="">
+			<img class="it11" src="Img/Logo_Customer/Logo_Lukoyl.png" alt="">
+			<img class="it12" src="Img/Logo_Customer/Logo_Marcon.jpg" alt="">
+			<img class="it13" src="Img/Logo_Customer/Logo_Molniy.png" alt="">
+			<img class="it14" src="Img/Logo_Customer/Logo_NewInterMash.png" alt="">
+			<img class="it15" src="Img/Logo_Customer/Logo_RosNeft.png" alt="">
+			<img class="it16" src="Img/Logo_Customer/Logo_Siemens.jpg" alt="">
+			<img class="it17" src="Img/Logo_Customer/Logo_Yarzewo.png" alt="">
+			<img class="it18" src="Img/Logo_Customer/Logo_York.png" alt="">
+
+
+		</div>
+
+
+	</div>
+
+<!-- Основной контент -->
+
+		<!-- Подвал -->
+		<div class="cl_footer">
+			<p class="cl_footerTxt">
+				© 2018 Разработка и дизайн InProcess. klabukov496@gmail.com
+			</p>
+
+		</div>
+
+	</div>
+
+</body>
+
+</html>
