@@ -10,7 +10,7 @@ var concat = require('gulp-concat'); (все файлы less, данного п�
 var sourcemaps = require('gulp-sourcemaps'); (отслеживание позиции изменения less файла)
 
 
- 
+
 var config = {
 	paths:{
 		less: './lessfiles/**/*.less', // путь к файлам less
@@ -18,23 +18,23 @@ var config = {
 	}
 	output:{
 		cssname: 'rezstyle.css', // все файлы less, данного проекта, сохраняем в один файл rezstyle.css
-		path: 'css' // путь к файлу css
+		path: 'css1' // путь к файлу css
 	}
 };
 
 
 
- 
+
 gulp.task('less', function(){
-	// получаем все файлы less, 
-	// инициализируем sourcemaps, 
-	// компилируем less в css, 
-	// объединение всех less в rezstyle.css, 
-	// добавление автопрефиксов, 
-	// минификация css, 
-	// куда сохранять результат, 
+	// получаем все файлы  less,
+	// инициализируем sourcemaps,
+	// компилируем less в css,
+	// объединение всех less в rezstyle.css,
+	// добавление автопрефиксов,
+	// минификация css,
+	// куда сохранять результат,
 	// синхронизация
- 
+
 	return gulp.src(config.paths.less)
 		.pipe(sourcemaps.init())
 		.pipe(less())
@@ -55,7 +55,7 @@ gulp.task('serve', function(){
 			basedir: config.output.path
 		}
 	});
- 
+
 	// смотреть за файлами всеми less
 	gulp.watch(config.paths.less, ['less']);
 	gulp.watch(config.paths.html).on('change', browsersync.reload);
@@ -64,6 +64,6 @@ gulp.task('serve', function(){
 
 
 
- 
+
 // запуск функций less и serve
 gulp.task('default', ['less', 'serve']);
